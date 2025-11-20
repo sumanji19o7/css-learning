@@ -1,0 +1,36 @@
+/*div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+span{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+display set to hidden hids the content but still occupies space
+
+inline is for only a line, block is for a block
+the inline block is combination of both it shows up as a block 
+but doesnt take the entire width of the webpage*/
+.container{
+    background-color: grey;
+    /*have to add height property so that the background color takes more space*/
+    height:50vh;
+}
+
+.box{
+    padding: 15px;
+    border:2px solid;
+    box-sizing: border-box;
+    height:auto;
+    width:50%; /*this only takes half the viewport*/
+    float: right;
+    min-height: 50%;
+
+    /*max width and min width are the properties for minimum width of box
+    and maximum width of box max height and min height for the height */
+}
