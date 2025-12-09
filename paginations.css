@@ -1,0 +1,45 @@
+.pagination {
+    text-align: center;
+
+}
+
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding:10px 15px;
+    display: inline-block;
+    
+}
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown button{
+    background-color: cyan;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display:block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.dropdown .content{
+    display: none;
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    min-width: 80px;
+    box-shadow: 3px 3px 4px hsla(0, 0%, 33%, 0.709);
+    /*first value for horizontal second for vertical third for level of blurr and then colour*/
+}
+
+.dropdown:hover .content{
+    display:block
+}
+
+.dropdown a:hover{
+    background-color: cyan;
+}

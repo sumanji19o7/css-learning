@@ -1,0 +1,83 @@
+#container{
+    border: 2px solid; /*a border around the border class*/
+}
+
+
+/*the container p(descendant) is only applied to 1 2 3 has a space*/
+/*the container >p (child) only applies to 1 and 2 as both are in the 1 and 2 container*/
+/*3 is not technically a child but a descendant is in another div*/
+/*the container ~p(general sibling) will apply to 4 and 5 as they are siblings to the container tag*/
+/*the container +p will apply to #4 as it is just next to the div tag*/
+#container +p{
+    background-color: yellow;/*adjacent siblings means*/
+}
+
+a:link{
+    color:red;
+}
+
+a:hover{
+    color:green;
+    font-size: 1.1em;
+    
+}
+
+a:active{
+    color: blue;
+    font-size: 1.1em;
+}
+
+a:visited{
+    color:cyan
+}
+
+li:hover{
+    color: red;
+    background-color: blue;
+}
+
+li:not(:hover){
+    /*color: cyan;*/
+    font-weight: bold;
+}
+
+#greeting p{
+    background-color: cyan;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{ /*space with p means the child of greeting id which is p*/
+    
+    
+    display: inline;
+}
+
+h1::first-letter{
+    font: size 2em;
+    font-style: italic;
+}
+
+#forpseudo::first-line{
+    color:red;
+    background-color: grey;
+    
+}
+
+#fruits li::before{
+    
+}
+
+#apple::after{
+    content:"🍎";   
+}
+
+#banana::after{
+    content: "🍌";
+}
+
+#fruits li::marker{
+    content: "✅";
+    color: greenyellow;
+    font-size: 1.2em;
+}

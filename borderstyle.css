@@ -1,0 +1,32 @@
+h1{
+
+    text-shadow: 3px 3px 3px hsl(0, 77%, 47%), -3px -3px 3px blue ;
+    /*first is horizontal offset second is vertical third is for the blurr*/
+
+
+    border-style:solid;/*dashed, solid, double, groove,inset are the different types of border style*/
+    border-width: 5px;
+    border-color: red;
+    border-radius: 25px;
+    height: 50p;
+    
+}
+
+p{
+    border-bottom: 3px solid cyan;
+    border-top:5px solid yellow;
+    border-left: 3px solid green;
+    border-right: 3px solid rgb(227, 13, 13);
+    border-radius: 15px;
+}
+
+#box1{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    box-shadow: 3px 3px 5px;
+
+}
+
+
+

@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(20, 20, 20, 0.901);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    /*the overflow makes the content visible after floating it to the left*/
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none ;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:rgb(106, 103, 103) ;
+}
+
+.navbar li{
+    float: left;
+}
+/*to make the navigation bar horizontal*/

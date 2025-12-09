@@ -1,0 +1,10 @@
+body{
+    background-image: url(semi.png);
+    /*background repeat is on by default means the image will repeat if is smaller then webpage*/
+    background-repeat: no-repeat;
+    /*no repate only renders the image once in smaller size*/
+    background-position: center;
+    background-attachment:scroll;
+    background-size:auto
+
+}

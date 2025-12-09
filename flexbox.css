@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: row;/*row is default*/
+    justify-content: flex-start;/*flex start is default
+    flex end will place the box in same order but at the end
+    space betweeen increases uniform space distribution
+    space evenly puts spaces between the left and right page*/
+
+    border: 5px solid;
+    height: 80vh;
+    align-items: center;/*this is for the vertical axis
+    center for center*/
+
+    /*flexwrrapped property for not enough space*/
+    /*space between the rows is gone*/
+
+    /*flex start mean the content is at the start of the page
+    flex end means the content is at the end of the page*/
+
+    /*gaps using em*/
+
+}
+
+.container p{
+    font-size: 2em;
+}
+
+.box{
+    width: 100px;
+    height:100px;
+    font-size: 6em;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#box1{
+    background-color:red;
+    align-self:start;
+}
+
+#box2{
+    background-color:green;
+}
+
+#box3{
+    background-color: yellow;
+}
+
+#box4{
+    background-color: cyan;
+}
