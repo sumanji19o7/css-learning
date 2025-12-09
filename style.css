@@ -1,0 +1,36 @@
+@font-face{
+    src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
+    font-family:OpenSans;
+}
+
+/*the src url has the path to the fonts file*/
+/*the font family is the name for the url*/
+
+
+
+
+body{
+    background-color:slategray;
+}
+
+#p1{
+
+    font-family:OpenSans ;
+    color:tomato
+}
+
+#p2{color:aquamarine}
+/*to select specific id use id tags*/
+/*can use names, rgb values [0,200,0] ,hexadecimal values */
+
+h1{
+    font-family:OpenSans, verdana,arial;
+}
+
+#p3{
+    font-family:OpenSans, "lucida console","courier new";
+    font-size: 16px;
+    /*have em like 1em is equal to 100 percent default font size*/
+
+}
+
